@@ -15,7 +15,7 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-import cors from 'cors';
+
 
 app.use(cors({
   origin: ['http://localhost:5173', 'https://doctor-appointment-booking-system-m-ivory.vercel.app'],
